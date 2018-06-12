@@ -1,0 +1,39 @@
+﻿@model ThongTinKhachHangModel
+
+<table class="adminContent">
+    <tr>
+        <td class="adminTitle" style="width:120px !important;">
+            Số điện thoại:
+        </td>
+        <td class="adminData">
+            <strong>@Model.DienThoai</strong>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="adminTitle">
+            Tên khách hàng:
+        </td>
+        <td class="adminData">
+            @Model.TenKhachHang
+        </td>
+    </tr>
+    <tr>
+        <td class="adminTitle">
+            Điểm đón cuối
+        </td>
+        <td class="adminData">
+            @Model.TenDiemDonCuoi
+        </td>
+    </tr>
+    <tr>
+        <td class="adminTitle">
+            Điểm trả cuối:
+        </td>
+        <td class="adminData">
+            @Model.TenDiemTraCuoi
+        </td>
+    </tr>
+
+</table>
+
